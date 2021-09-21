@@ -41,4 +41,7 @@ section {
     justify-content: center;
     width: 120px;
   }
-  
+
+  .mat-raised-button:not([class*=mat-elevation-z]) {
+    margin-right: 5px;
+  }
